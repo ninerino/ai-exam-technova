@@ -1,0 +1,19 @@
+.loading-wave {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ccc;
+  letter-spacing: 1px;
+  animation: wave 1.6s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(0);
+    color: #ccc;
+  }
+  50% {
+    transform: translateY(-3px);
+    color: #fff;
+  }
+}
