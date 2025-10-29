@@ -10,6 +10,8 @@ Det ska finnas ett gränssnitt för att skriva till boten och ställa frågor. B
 
 Tekniska krav bestod av att använda React med Langchain.js, specifikt funktionerna PromptTemplate, RunnableSequence och Retriever. Vi skulle även använda oss av Supabase för att spara databasen, samt Ollama.
 
+Screenshot på databasen finns [här](https://github.com/ninerino/ai-exam-technova/blob/main/technova.png).
+
 ## Extra krav för VG
 
 För att få VG så skulle vi utöver ovanstående krav dela upp koden så att langchain.js är skiljt från React-komponenterna, det vill säga modulärt. Utöver detta skulle vi använda oss av en funktion som finns i Langchain.js som vi inte gått igenom under kursen.
@@ -29,7 +31,3 @@ Till slut landade jag på en funktion som inte hjälper användaren utan mig som
 Jag har använt chatGPT för två saker.
 - Förklaring av koncept som jag haft svårt att förstå genom att bara läsa dokumentation
 - En regex-kodsnutt som finns i /packages/base/message/ui/index.jsx, tydligt uppmärkt.
-
-Still to fix:
-
-# Ta screenshot på databasen
