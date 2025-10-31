@@ -1,4 +1,3 @@
-// Message.jsx
 import './index.css';
 
 // Funktion som gör radbrytningar samt gör mailen klickbar och inte dubbel

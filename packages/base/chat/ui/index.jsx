@@ -1,7 +1,7 @@
 import './index.css';
 import { useEffect, useRef } from "react";
-import { Message } from "@ai-exam-technova/message";
 import { Loading } from "@ai-exam-technova/loading";
+import { Message } from "@ai-exam-technova/message";
 import { useChatLogic } from "@ai-exam-technova/usechat";
 
 export const Chat = () => {
